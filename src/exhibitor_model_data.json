@@ -1,0 +1,41 @@
+{
+  "contact_info": {
+    "name": "",
+    "description": "",
+    "image": ""
+  },
+  "services": [
+    {
+      "name": "Service 1",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "image": ""
+    }
+  ],
+  "documents": [
+    {
+      "name": "Nuestros productos",
+      "url": "https://firebasestorage.googleapis.com/v0/b/hey-48c29.appspot.com/o/events%2FPDF-PRUEBAS.pdf?alt=media&token=afe56d5d-8d99-4ed3-a7e2-bc1e1a9719d6"
+    }
+  ],
+  "advisor": {
+    "image": "https://firebasestorage.googleapis.com/v0/b/hey-48c29.appspot.com/o/events%2FchatImage%20(1).png?alt=media&token=8b0577e2-72c8-4aa6-979c-3da53e25227f",
+    "name": "Edgar Izquierdo",
+    "phone_number": "57number"
+  },
+  "gallery": [
+    {
+      "image": ""
+    }
+  ],
+  "social_networks": [
+    {
+      "url": "",
+      "icon": "",
+      "label": ""
+    }
+  ],
+  "site_url": "",
+  "stand_type": "",
+  "video_url": "",
+  "stand_image": ""
+}
