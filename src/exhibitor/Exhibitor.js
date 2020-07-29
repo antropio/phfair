@@ -68,7 +68,6 @@ class Exhibitor extends Component {
             video_iframe: "",
             stand_type: "",
             contact_info: {
-                name: "Contáctenos",
                 description: "Para nosotros prestarte el mejor servicio es lo más importante\n" +
                     "\n" +
                     "Address: CARRERA 68B No. 10A - 97\n" +
@@ -293,7 +292,7 @@ class Exhibitor extends Component {
                                     <img src={exhibitorData.contact_info.image} alt=""/>
                                 </div>
                                 <div className="main-stand-contact-info-info">
-                                    <div className="main-stand-contact-info-title">{exhibitorData.contact_info.name}</div>
+                                    <div className="main-stand-contact-info-title">Contáctenos</div>
                                     <div className="main-stand-contact-info-description">
                                         <div>{exhibitorData.contact_info.description}</div>
                                     </div>
