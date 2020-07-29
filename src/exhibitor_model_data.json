@@ -5,15 +5,8 @@
   },
   "services": [
     {
-      "name": "Service 1",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
       "image": ""
-    }
-  ],
-  "documents": [
-    {
-      "name": "Nuestros productos",
-      "url": "https://firebasestorage.googleapis.com/v0/b/hey-48c29.appspot.com/o/events%2FPDF-PRUEBAS.pdf?alt=media&token=afe56d5d-8d99-4ed3-a7e2-bc1e1a9719d6"
     }
   ],
   "advisor": {
@@ -29,12 +22,12 @@
   "social_networks": [
     {
       "url": "",
-      "icon": "",
-      "label": ""
+      "network": "facebook,instagram,twitter,linkedin"
     }
   ],
-  "site_url": "",
-  "stand_type": "",
+  "brochure": "",
+  "webpage": "",
+  "stand_type": "gold,silver,bronze",
   "video_url": "",
   "stand_image": ""
 }
