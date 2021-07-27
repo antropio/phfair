@@ -120,6 +120,7 @@ class Lobby extends Component {
           <div className='the-lobby-video-wrap'>
             <div className='the-lobby-video-container'>
               <iframe
+                title="Congreso PH"
                 width='560'
                 height='315'
                 src='https://www.youtube.com/embed/RaXVD8dI5Js'

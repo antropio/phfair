@@ -156,7 +156,7 @@ class Exhibitor extends Component {
                 </Link>
                 <div className="main-stand-social-networks">
                     {exhibitorData.social_networks.map((item, index) => (
-                        <a href={item.url} className={`main-stand-social-networks-item ${item.network}`} key={index} target="_blank">
+                        <a href={item.url} className={`main-stand-social-networks-item ${item.network}`} key={index} target="_blank" rel="noopener noreferrer">
                             <img src={`/exhibitors/icons/${item.network}.svg`} alt=""/>
                         </a>
                     ))}
@@ -186,7 +186,7 @@ class Exhibitor extends Component {
                         </div>
                         <div className="main-stand-navigation-item-label">CATÁLOGOS</div>
                     </div>
-                    <a href={exhibitorData.webpage} className="main-stand-navigation-item" target="_blank">
+                    <a href={exhibitorData.webpage} className="main-stand-navigation-item" target="_blank" rel="noopener noreferrer">
                         <div className="main-stand-navigation-item-icon">
                             <img src="/exhibitors/icons/ic_public_24px.png" alt=""/>
                         </div>
@@ -194,7 +194,7 @@ class Exhibitor extends Component {
                     </a>
                 </div>
                 <a className="main-stand-chat"
-                   href={"https://api.whatsapp.com/send?phone=" + exhibitorData.advisor.phone_number} target="_blank">
+                   href={"https://api.whatsapp.com/send?phone=" + exhibitorData.advisor.phone_number} target="_blank" rel="noopener noreferrer">
                     <img className="chat-image" src={exhibitorData.advisor.image} alt=""/>
                     <div className="chat-message">
                         Hola soy {exhibitorData.advisor.name},<br/>
