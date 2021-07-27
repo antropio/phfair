@@ -2,6 +2,10 @@
   --main-height: calc(100vh - 0px) /* calc(100vh - 64px): Calculamos el alto 100% incluyendo el header principal */
 }
 
+body {
+  font-size:10px;
+}
+
 .main-stand {
   height: var(--main-height);
   background-image: url('/exhibitors/bg_stand.png');
