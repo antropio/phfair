@@ -4,6 +4,11 @@
 
 body {
   font-size:10px;
+  margin:0;padding:0;
+}
+
+#root{
+  margin:0;padding:0;
 }
 
 .main-stand {
