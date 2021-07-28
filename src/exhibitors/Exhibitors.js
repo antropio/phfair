@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './Exhibitors.css'
-import { Link } from 'react-router-dom';
 
 class Exhibitors extends Component {
     render() {
